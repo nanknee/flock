@@ -1,0 +1,33 @@
+{
+  "original_rows": 8518763,
+  "rows_after_exact_deduplication": 7634056,
+  "unique_timestamps": 7307715,
+  "one_minute_rows": 920031,
+  "short_gap_minutes_filled": {
+    "Aggregate": 588,
+    "Appliance1": 1267,
+    "Appliance2": 1283,
+    "Appliance3": 616,
+    "Appliance4": 641,
+    "Appliance5": 1825,
+    "Appliance6": 503,
+    "Appliance7": 587,
+    "Appliance8": 1015,
+    "Appliance9": 771
+  },
+  "minutes_with_any_long_gap": 216054,
+  "remaining_missing": {
+    "Aggregate": 114543,
+    "Appliance1": 116379,
+    "Appliance2": 117233,
+    "Appliance3": 115972,
+    "Appliance4": 115357,
+    "Appliance5": 121710,
+    "Appliance6": 115465,
+    "Appliance7": 114534,
+    "Appliance8": 115757,
+    "Appliance9": 212194
+  },
+  "duplicate_resolution": "mean of nonidentical readings at same Unix second",
+  "extreme_value_policy": "flagged for review; not automatically removed"
+}
